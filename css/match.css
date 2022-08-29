@@ -1,0 +1,50 @@
+.match-content {
+    width: 400px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.flag {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 5%;
+}
+
+.vs {
+    font-weight: 900;
+}
+
+.flag img {
+    width: 30%;
+}
+
+.match-between {
+    text-align: center;
+    font-size: 23px;
+
+}
+
+.match-pera {
+    text-align: center;
+    color: grey;
+    font-size: 18px;
+}
+
+.match {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 5%;
+    grid-row-gap: 50px;
+}
+
+.change-log {
+    background-color: red;
+    border: none;
+    color: #fff;
+}
+
+.selected-button {
+    background-color: #fff;
+    color: black;
+}
