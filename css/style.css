@@ -11,6 +11,7 @@ body {
     Width: 100%;
     Height: 800px;
     display: flex;
+    margin-bottom: 80px;
 }
 
 .banner-info {
@@ -65,4 +66,127 @@ body {
 
 .fa-solid {
     margin-left: 5px;
+}
+
+/*------------
+    Blog start
+----------------- */
+.blog {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.nav {
+    width: 20%;
+    height: 400px;
+    margin-left: 4%;
+}
+
+.nav-menu {
+    background-color: #161616;
+    width: 300px;
+    height: 300px;
+    margin-left: 10%;
+}
+
+ul li {
+    list-style: none;
+    padding-top: 20%;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+
+}
+
+.nav-button {
+    background-color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.selected-button {
+    background-color: red;
+    color: #fff;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 15%;
+    grid-row-gap: 50px;
+}
+
+.blogs {
+    width: 320px;
+    height: 400px;
+    border: 1px solid grey;
+    margin-left: 20%;
+    box-shadow: 0px 0px 20px black;
+    border-radius: 10px;
+
+}
+
+.blog img {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.blog-button {
+    text-decoration: none;
+    padding: 8px;
+    font-size: 17px;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    color: #161616;
+    background-color: transparent;
+    margin-left: 5%;
+    font-weight: 900;
+}
+
+.blog-button:hover {
+    background-color: red;
+    border: 1px solid red;
+    transition: 0.4s;
+}
+
+.blog-head {
+    font-size: 20px;
+    color: black;
+    padding-left: 5%;
+}
+
+.fa-solid {
+    padding-left: 5%;
+    color: grey;
+}
+
+.goal {
+    height: 500px;
+    background-color: #161616;
+}
+
+.top {
+    padding-top: 2%;
+}
+
+.top h2 {
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+
+}
+
+.bottom {
+    margin-top: 150px;
+    border-top: 1px solid grey;
+    padding-top: 2%;
+}
+
+.footer-policy {
+    text-decoration: none;
+    margin-left: 180px;
+    color: grey;
 }
