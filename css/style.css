@@ -41,6 +41,12 @@ body {
 .banner-info img {
     width: 70%;
     padding-left: 15%;
+
+}
+
+.banner img:hover {
+    transform: scale(0.9);
+    transition: 0.7s;
 }
 
 .banner-right {
@@ -163,6 +169,21 @@ ul li a {
     color: grey;
 }
 
+.con-button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: red;
+    font-size: 20px;
+    border: none;
+    color: #fff;
+}
+
+.bottom-button {
+    display: none;
+}
+
+/* Footer */
+
 .goal {
     height: 500px;
     background-color: #161616;
@@ -189,4 +210,14 @@ ul li a {
     text-decoration: none;
     margin-left: 180px;
     color: grey;
+}
+
+.logo {
+    display: none;
+}
+
+.fa-brands {
+    color: #fff;
+    font-size: 18px;
+    padding-left: 5%;
 }
