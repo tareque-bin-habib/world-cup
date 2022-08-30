@@ -1,0 +1,87 @@
+/* Mobile Device */
+@media only screen and (min-width: 446px) and (max-width: 688px) {
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-info {
+        width: 100%;
+    }
+
+    .banner-head {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .pera {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .web-button {
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 0;
+
+    }
+
+    .banner-button {
+        text-align: center;
+    }
+
+    .banner-info img {
+        width: 55%;
+        margin-left: 15%;
+        height: 100%;
+    }
+
+    .content,
+    footer {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .banner {
+        flex-direction: column;
+        height: 700px;
+    }
+
+    .banner-info {
+        width: 100%;
+    }
+
+    .banner-head {
+        font-size: 30px;
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .pera {
+        text-align: center;
+        padding-left: 0;
+    }
+
+    .web-button {
+        font-size: 18px;
+        padding: 10px;
+        margin-left: 0;
+
+    }
+
+    .banner-button {
+        text-align: center;
+    }
+
+    .banner-info img {
+        width: 55%;
+        margin-left: 15%;
+        height: 100%;
+    }
+
+    .blog,
+    footer {
+        display: none;
+    }
+}
